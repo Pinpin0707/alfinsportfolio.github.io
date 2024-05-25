@@ -4,27 +4,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--CSS Reference-->
-        <link rel="stylesheet" href="./css/style.css">
-        <!--Box Icons reference-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!--===== CSS =====-->
+        <link rel="stylesheet" href="./css/style.css">        
+        <!--===== Box Icons Reference for social media and Skill Icons =====-->
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">        
 
-        <title>Alfin's Portfolio</title>
+        <title>Alfin's Website</title>
     </head>
     <body>
         <!--===== HEADER AND NAVIGATION =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Alfin Syaghaf Rifai</a>
+                    <a href="#" id="dynamic_name" class="nav__logo">Alfin Syaghaf Rifai</a>
                 </div>
-
+                
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experiences</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Works</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
@@ -41,65 +41,115 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Alfin Syaghaf Rifai</span><br> a student from <span class="home__title-color">Bina Nusantara</span><br>welcome to my website!</h1>
+                    <div class="home__tittle__greetings">
+                        <h1 id="dynamic_message">Halo</h1>
+                        <span id="caret">|</span>
+                    </div>
+                    <h1 class="home__title">I'm <span class="home__title-color">Alfin Syaghaf Rifai</span><br>a student from <span class="home__title-color">BINUS University</span>.<br>I love creating things and expressing my creativity.</h1>
 
-                    <a href="#contact" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/alfin-syaghaf-rifai-367262229" class="home__social-icon"><i class='bx bxl-linkedin-square'></i></a>
-                    <a href="https://www.instagram.com/alfinsr_" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://github.com/Pinpin0707" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                
+                    <a href="#contact" class="button">Reach Me</a>                    
+                </div>                
             </section>
 
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+                <h2 class="section-title">About Me</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about2.JPG" alt="">
+                        <img src="assets/img/about.JPG" alt="">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Alfin</h2>
-                        <p class="about__text">an undergraduate student majoring in Computer Science. I am passionate in technology and excited to learn more about Software Engineering and Software Development. However, I am also up to learn something new as well! Looking forward to connect with you :)</p>     
-                              
+                        <h2 class="about__subtitle">Let Me Introduce Myself</h2>
+                        <p class="about__text">
+                            I am currently a student majoring in Computer Science at BINUS University. 
+                            I have a deep interest in various things such as music, art, and technology. 
+                            In the field of technology, I am particularly fascinated by software development, AI, and the advancements in hardware technology. 
+                            I also love to be creative, especially developing games and apps. 
+                            I am driven by a strong desire to continuously learn and explore new possibilities. 
+                            Additionally, I am open to making new connections and friendships.
+                        </p>                              
                     </div>                                   
                 </div>
             </section>
 
             <!--===== EXPERIENCE ======-->
             <section class="experience section" id="experience">
-                <h2 class="section-title">Experience and Education</h2>
+                <h2 class="section-title">My Experiences And Educations</h2>
                 <div class="experience-container">
-                    <ul>
+                    <ul>                        
                         <li>
-                            <h3 class="experience-heading">SMAN 1 Sindang</h3>
-                            <p>I have pursued studies in the field of natural sciences <br>and have also had the privilege of participating<br>in my school's basketball team.</p>
-                            <span class="experience-date">2019 - 2022</span>
-                            <span class="experience-circle"></span>
+                            <div class="experience-box">                                
+                                <h3 class="experience-heading">Bina Nusantara University</h3>
+                                <p class="experience-value">
+                                    I commenced my academic journey at BINUS University in 2022.<br> 
+                                    I can be called Binusian 26 because it is targeted to graduate in 2026.<br>
+                                    During my studies, there are many things that I have learned and gained.<br> 
+                                    I learned algorithms and programming, basic statistics, data structures, computer networks, databases, and many more.
+                                    I also participated<br>in many events and student activity units such as BNCC, basketball competitions, and others.
+                                    I'm currently in my fourth semester at the university.
+                                </p>
+                                <span class="experience-date">2022 - Present</span>
+                                <span class="experience-circle"></span>
+                            </div>
                         </li>
                         <li>
-                            <h3 class="experience-heading">Bina Nusantara University</h3>
-                            <p>As a diligent student of Bina Nusantara University's esteemed computer science program, I am wholly committed to actively engaging<br>with my studies and pursuing excellence in my academic endeavors.</p>
-                            <span class="experience-date">2022 - Present</span>
-                            <span class="experience-circle"></span>
+                            <div class="experience-box">                                
+                                <h3 class="experience-heading">BNCC Member - Front-End Class</h3>
+                                <p class="experience-value">
+                                    Become a member of BNCC and acquire knowledge and<br>skills in Front-End Development.
+                                    Learn and understand<br>several languages used to create a complete web such as HTML, CSS, and JavaScript.
+                                </p>
+                                <span class="experience-date">2022 - 2023</span>
+                                <span class="experience-circle"></span>
+                            </div>
                         </li>
                         <li>
-                            <h3 class="experience-heading">BNCC Activist</h3>
-                            <p>As an active member of the Bina Nusantara Computer Club<br>I am now part of the Public Relations division.</p>
-                            <span class="experience-date">2023</span>
-                            <span class="experience-circle"></span>
+                            <div class="experience-box">                                
+                                <h3 class="experience-heading">Freshmen Leader FYP Binusian 2027</h3>
+                                <p class="experience-value">
+                                    Assist first-year students especially School of Computer Science faculty<br> at BINUS, 
+                                    to adjust to campus life by facilitating their orientation in the<br>BINUSIAN 2027 First Year Program.
+                                    Emphasizing BINUS SPIRIT values by:<br>
+                                    - Demonstrating leadership skills in managing a project from concept to completion.<br>
+                                    - Building polite and effective working relationships.<br>
+                                    - Building an organized and balanced work ethic.
+                                </p>
+                                <span class="experience-date">Aug - Sep 2023</span>
+                                <span class="experience-circle"></span>
+                            </div>
                         </li>
                         <li>
-                            <h3 class="experience-heading">BNCC Malang CFO</h3>
-                            <p>As a member of the Bina Nusantara Computer Club organization, I am honored to hold the esteemed position of Chief Financial Officer.<br>My responsibilities include overseeing the financial operations of the organization and ensuring that we adhere to ethical and transparent financial practices.<br>It is a privilege to serve in this role and contribute to the success of our esteemed organization.</p>
-                            <span class="experience-date">2023 - Present</span>
-                            <span class="experience-circle"></span>
+                            <div class="experience-box">
+                                <h3 class="experience-heading">BNCC Activist - Public Relation Division</h3>
+                                <p class="experience-value">
+                                    Being part of Bina Nusantara Computer Club's Public Relations<br>
+                                    division gave me a lot of experience and skills:<br>
+                                    - Participated in various trainings to improve soft skills.<br>
+                                    - Gained skills in design and more.<br>
+                                    - Building strong team bonds to achieve goals.<br>
+                                    - Working with the team in running the Public Relations division<br>work program.
+                                </p>
+                                <span class="experience-date">2023 - 2024</span>
+                                <span class="experience-circle"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="experience-box">
+                                <h3 class="experience-heading">BNCC Malang Chief Financial Officer</h3>
+                                <p class="experience-value">
+                                    As part of the Bina Nusantara Computer Club organization,<br>
+                                    I am honored to have been entrusted with the role of chief<br>financial officer for the Malang region.<br>
+                                    As the CFO of BNCC Malang:<br>
+                                    - I am responsible for preparing accurate and timely financial<br>reports for BNCC, by applicable accounting standards.<br>
+                                    - I am responsible for planning BNCC's long-term financial strategy,<br>including cash allocation and cash raising.<br>
+                                    - I oversee BNCC's cash flow to ensure adequate liquidity and<br>manage liquidity risk.<br>
+                                    - I contribute to BNCC's strategic decision-making.
+                                </p>
+                                <span class="experience-date">2024 - Present</span>
+                                <span class="experience-circle"></span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -107,36 +157,38 @@
 
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">My Professional Skills</h2>
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">These are some of skills that I can do to help your project!</p>
+                        <!-- <h2 class="skills__subtitle">Professional Skills</h2> -->
+                        <!-- <p class="skills__text">Here is my hard skill, but I have a good softskill too :)</p> -->
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">HTML, CSS, And Javascript</span>
                             </div>
-                            <div class="skills__bar skills__html">
+                            <div class="skills__bar skills__frontend">
 
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS</span>
+                                <i class='bx bxl-android skills__icon'></i>
+                                <span class="skills__name">Java And Kotlin</span>
                             </div>
-                            <div class="skills__bar skills__css">
+                            <div class="skills__bar skills__mobile">
                                 
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
+                                <i class='bx bxl-dev-to skills__icon' ></i>
+                                <span class="skills__name">C# And Unity</span>
                             </div>
-                            <div class="skills__bar skills__js">
+                            <div class="skills__bar skills__c">
                                 
                             </div>
                         </div>                        
@@ -147,50 +199,47 @@
                 </div>
             </section>
 
-            <!--===== WORK =====-->
+            <!--===== THINGS THAT I WORKING ON IT =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Works</h2>
+                <h2 class="section-title">My Works</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="https://github.com/Pinpin0707/goldenlearning.github.io.git" class="work__img">
-                        <img src="assets/img/work1.png" alt="">
-                    </a>
                     <a href="https://drive.google.com/file/d/1V3zq-1DMnO8OgpOdjAaGVeaeTgyWq2dN/view?usp=sharing" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                        <img src="assets/img/RestaurantApps.png" alt="">
                     </a>
+                    <a href="https://github.com/Pinpin0707/goldenlearning.github.io.git" class="work__img">
+                        <img src="assets/img/GoldenLearning.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/SID.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/CS.png" alt="">
+                    </a>                    
                 </div>
             </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form" id="contactForm">
-                        <input type="text" id="name" placeholder="Name" class="contact__input">
-                        <input type="mail" id="emailid" placeholder="Email" class="contact__input">
-                        <textarea name="" id="msgContent" placeholder="Messages" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
-                </div>
+                <h2 class="section-title">My Contacts</h2>
+                <h1 class="contact__text_top">Get In Touch With Me</h1>                                        
+                <div class="contact__social">
+                    <a href="https://www.linkedin.com/in/alfin-syaghaf-rifai-367262229" class="contact__icon"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://www.instagram.com/alfinsr_" class="contact__icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/alfinsrf" class="contact__icon"><i class='bx bxl-github' ></i></a>
+                </div>                                    
+                <h1 class="contact__text_bottom">Thank You</h1>
             </section>
         </main>
 
         <!--===== FOOTER =====-->
-        <footer class="footer">
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/alfin-syaghaf-rifai-367262229" class="footer__icon"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="https://www.instagram.com/alfinsr_" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://github.com/Pinpin0707" class="footer__icon"><i class='bx bxl-github' ></i></a>
-            </div>
-            <p class="footer__copy">&copy;2023. Alfin Syaghaf Rifai</p>
+        <footer class="footer">            
+            <p class="footer__copy">Copyright &copy; 2023 Alfin Syaghaf Rifai. All Rights Reserved.</p>
         </footer>
 
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <!--===== MAIN JS =====-->
-        <!-- <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js"></script> -->
-        <script src="./js/main.js"></script>
+        <!--===== JAVASCRIPT =====-->
+        <!--===== SCROLL REVEAL REFERENCE =====-->        
+        <script src="https://unpkg.com/scrollreveal"></script>                
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
