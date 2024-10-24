@@ -279,6 +279,10 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.about__text {
+  text-align: justify;
+}
+
 .about__img {
   justify-self: center;
 }
@@ -361,7 +365,7 @@ ul li:nth-child(even) .experience-circle {
 
 ul li .experience-date {
 	position: absolute;
-	width: 130px;
+	width: 150px;
 	height: 33px;
 	background-color: #285430;
 	border-radius: 15px;

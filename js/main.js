@@ -3,9 +3,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const messageElement = document.getElementById('dynamic_name');    
     const message = [
         'Alfin Syaghaf Rifai ',
-        'Alfin ' ,
-        'Alfin S R ',
-        'Fin Not Vin '
+        'Alfin '        
     ];
     let index = 0;
     let charIndex = 0;
